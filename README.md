@@ -14,9 +14,7 @@ Este proyecto TSQL demuestra habilidades avanzadas en gestión de bases de datos
 Los datos utilizados en este proyecto provienen del conjunto [Retail Transaction Dataset](https://www.kaggle.com/datasets/fahadrehman07/retail-transaction-dataset/data) disponible en Kaggle. Se trata de una base de datos ficticia pero diseñada para simular fielmente los datos transaccionales que podrían encontrarse en un entorno minorista real.
 
 El dataset contiene 10 columnas clave que capturan diversas dimensiones de las transacciones:
-- `CustomerID`, `ProductID`, `Quantity`, `Price`
-- `TransactionDate`, `PaymentMethod`, `StoreLocation`
-- `ProductCategory`, `DiscountApplied(%)`, `TotalAmount`
+- `CustomerID`, `ProductID`, `Quantity`, `Price`, `TransactionDate`, `PaymentMethod`, `StoreLocation`, `ProductCategory`, `DiscountApplied(%)`, `TotalAmount`.
 
 Esta información permite analizar patrones de compra, preferencias de productos, estrategias de precios y tendencias regionales. La columna `TransactionDate` facilita el análisis temporal de tendencias estacionales, mientras que `DiscountApplied(%)` ofrece insights sobre la efectividad de promociones. Los métodos de pago registrados ayudan a entender las preferencias de los consumidores, haciendo de este conjunto de datos una herramienta valiosa para la toma de decisiones estratégicas en retail.
 
